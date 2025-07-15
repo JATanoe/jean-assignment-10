@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MealPlannerController {
+public class WebController {
 
     private final MealPlannerService mealPlannerService;
 
-    public MealPlannerController(MealPlannerService mealPlannerService) {
+    public WebController(MealPlannerService mealPlannerService) {
         this.mealPlannerService = mealPlannerService;
     }
 
